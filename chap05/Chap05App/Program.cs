@@ -15,7 +15,7 @@ namespace Chap05App
 
                 int number = 0;
                 int.TryParse(line, out number);//sql서버에서 out으로 사용함. 매개변수를 출력으로 쓴다. 숫자가 아니면 파스를 빠져 나간다.
-                //라인값이 변환이 되지 않은 값이면 여기에 0을 집어 넣어 준다.
+                //라인값이 변환이 되지 않은 값이면 여기에 0을 집어 넣어 준다.->데이터 형식이 int여야 한다.
                 //Console.WriteLine(number);
                 //todo 아래 로직을 수정하세요.
                 if(number>0)
