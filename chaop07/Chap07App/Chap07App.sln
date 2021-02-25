@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritTestApp", "..\Inheri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassTypeCastApp", "..\ClassTypeCastApp\ClassTypeCastApp.csproj", "{935CF59B-C117-43E3-884F-61D1F20F6E6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverrideTestApp", "..\OverrideTestApp\OverrideTestApp.csproj", "{A0F348E4-4114-4655-A2A5-8D1AE22E1EE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClassTestApp", "..\PartialClassTestApp\PartialClassTestApp.csproj", "{5F815CA1-E17F-47F9-9073-3B7750F5B031}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{935CF59B-C117-43E3-884F-61D1F20F6E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{935CF59B-C117-43E3-884F-61D1F20F6E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{935CF59B-C117-43E3-884F-61D1F20F6E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F348E4-4114-4655-A2A5-8D1AE22E1EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F348E4-4114-4655-A2A5-8D1AE22E1EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F348E4-4114-4655-A2A5-8D1AE22E1EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F348E4-4114-4655-A2A5-8D1AE22E1EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F815CA1-E17F-47F9-9073-3B7750F5B031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F815CA1-E17F-47F9-9073-3B7750F5B031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F815CA1-E17F-47F9-9073-3B7750F5B031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F815CA1-E17F-47F9-9073-3B7750F5B031}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
