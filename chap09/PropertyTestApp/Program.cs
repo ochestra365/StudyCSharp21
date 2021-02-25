@@ -44,7 +44,7 @@ namespace PropertyTestApp
             return this.birthday;//경로 호출 및 반환
         }
 
-        public void SetBirthday(DateTime birthday)
+        public void SetBirthday(DateTime birthday)//void를 쓰는 게 해당 메서드의 사이클이 완료될 때까지
         {
             this.birthday = birthday;//경로 호출하여 할당. 이름을 같게 쓰는 것은 속성 값을 그대로 가져오기 위함인데, 보안이 걸려 있어서 해주는 것이다.(은닉성, 캡슐화)
         }
@@ -77,6 +77,7 @@ namespace PropertyTestApp
             //public으로 멤버변수를 설정하면, 메인메서드에서 선언과 할당이 동시에 된다.
             //private로 멤버변수를 설정하면, 메인메서드에서 선언과 할당이 동시에 되지 않는다. 이때, void로 선언을 하고(왜냐하면 결과값이 반환되지 않아야 하니까)
             //return으로써 반환하는 것은 private라는 멤버변수 속성을 지켜주기 위해서이다.
+            //컴파일러 에러가 아니라 사용자 에러를 막아주기 위해서 사용하는 것이다.
         }
     }
 }
