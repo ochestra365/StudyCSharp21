@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTypeCastApp", "..\NewTyp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewOverrideTestApp", "..\NewOverrideTestApp\NewOverrideTestApp.csproj", "{4E5ACE62-772A-42F7-979C-C8870962C1F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TupleTestApp", "..\TupleTestApp\TupleTestApp.csproj", "{6931DB6D-0DDD-44C6-8C13-66CB5F3553C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{4E5ACE62-772A-42F7-979C-C8870962C1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E5ACE62-772A-42F7-979C-C8870962C1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E5ACE62-772A-42F7-979C-C8870962C1F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6931DB6D-0DDD-44C6-8C13-66CB5F3553C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6931DB6D-0DDD-44C6-8C13-66CB5F3553C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6931DB6D-0DDD-44C6-8C13-66CB5F3553C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6931DB6D-0DDD-44C6-8C13-66CB5F3553C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
