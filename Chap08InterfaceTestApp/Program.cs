@@ -26,7 +26,7 @@ namespace Chap08InterfaceTestApp
         void Ride();//구현되어 있는 것을 써라는 것이기 때문에 뭘 써도 상관없다.
     }
     //다중상속에서는 Ride때문에 문제가 생김. 왜냐하면 관계성과 방향을 설정해줘야 하기 때문이다.
-    class DroneCar : IPlane, ICar//다중상속의 문제를 해결했다. 코드의 기능성을 강화시킨 항목이다.//오버라이드를 할 필요도 없다.
+    class DroneCar : IPlane, ICar//다중상속의 문제를 해결했다. 코드의 기능성을 강화시킨 항목이다.//오버라이드를 할 필요도 없다. 인터페이스에 사용되는 클래스는 상속표시를 해준다.
     {
         public void Fly()
         {
