@@ -16,7 +16,7 @@ namespace TextFileApp
             StreamWriter sw = null; 
             try
             {
-                sw= new StreamWriter(new FileStream(filePath, FileMode.Create));
+                sw= new StreamWriter(new FileStream(filePath, FileMode.OpenOrCreate));
                 sw.WriteLine(int.MaxValue);
                 sw.WriteLine("Hello, World!");
                 sw.WriteLine($"uint.MaxValue = {uint.MaxValue}");
