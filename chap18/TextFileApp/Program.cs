@@ -17,6 +17,13 @@ namespace TextFileApp
             try
             {
                 sw= new StreamWriter(new FileStream(filePath, FileMode.Create));
+                sw.WriteLine(int.MaxValue);
+                sw.WriteLine("Hello, World!");
+                sw.WriteLine($"uint.MaxValue = {uint.MaxValue}");
+                sw.WriteLine("안녕하세요!!");
+                sw.WriteLine($"double.MaxValue={double.MaxValue}");
+
+                Console.WriteLine("파일생성");
             }
             catch (Exception ex)
             {
