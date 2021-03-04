@@ -14,7 +14,7 @@ namespace AddressBookApp
         {
             List<AddressInfo> listResult = new List<AddressInfo>();
             var filePath = Environment.CurrentDirectory + "\\" + dataFileName;//데이터파일
-            StreamReader sr = new StreamReader(new FileStream(filePath, FileMode.Open, FileAccess.Read));//Open
+            StreamReader sr = new StreamReader(new FileStream(filePath, FileMode.Open, FileAccess.Read));//Open//"파일흐름을 읽겠다."를 변수삼아 스트림리더를 시행하는 것. 
             while (sr.EndOfStream == false)
             {
                 var temp = sr.ReadLine();
