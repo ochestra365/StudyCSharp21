@@ -31,7 +31,7 @@ namespace TextFileApp
             }
             finally
             {
-                sw.Close();
+              
             }
 
             StreamReader sr = null;
