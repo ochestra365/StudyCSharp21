@@ -54,10 +54,12 @@ namespace AddressBookApp
                         default: //0은 여기서 처리.
                                  //아무 로직 없음.
                             break;
+                            //각 케이스별 상황들을 분류하고 그 상황이 종료되면 default초기값으로 회귀한다는 말이다. 그리고 이것은 while에 의해 항상 참이므로
+                            //프로그램이 종료되지 않는다.
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception ex)//혹시 사용자가 뭔 짓을 할지몰라 에러가 발생하면 예외발생한 것에 대해 해당대처를 개발자가 하기 위함이다.
             {
 
                 Console.WriteLine($"예외발생 : {ex.Message}");

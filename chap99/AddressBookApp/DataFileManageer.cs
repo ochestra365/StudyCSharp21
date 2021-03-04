@@ -25,7 +25,8 @@ namespace AddressBookApp
             }
             sr.Close();
 
-            return listResult;
+            return listResult;// 연산만 끝나면 안된다. 아래의 WriteData에서 해당 읽은 것을 쓰려면 연산한 결과값을 반환해줘서 
+            //경로를 읽은 결과값을 참조해서 변경내용을 작성해야 하기 때문이다.
         }
 
         public void WriteData(List<AddressInfo> param)//매니저 속성을 param이라는 변수 삼아서 쓴다.
