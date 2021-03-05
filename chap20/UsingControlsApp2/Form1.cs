@@ -11,7 +11,15 @@ using System.Windows.Forms;
 namespace UsingControlsApp2
 {
     public partial class FrmMain : Form
-    {
+    { /*private void ChangeFont()
+        {
+            if (CboFont.SlectedIndex < 0) return;
+
+            FontStyle style = FontStyle.Regular;
+            if (ChkBold.checked) style |= FontStyle.Bold;
+                if (ChkItalic.Checked) style |= FontStyle.Italic;
+                TxtResult.Font = new Font((string)CboFont.SelectedItem, 14, style);
+                }*/
         public FrmMain()
         {
             InitializeComponent();
@@ -22,7 +30,7 @@ namespace UsingControlsApp2
             var FontsList = FontFamily.Families;
             foreach (var item in FontsList)
             {
-                //CboFont.Items.Add(font.Name);
+                //checkBox1.Items.Add(font.Name);
             }
         }
 
@@ -36,15 +44,19 @@ namespace UsingControlsApp2
 
         }
 
-
-        /*private void ChangeFont()
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (CboFont.SlectedIndex < 0) return;
 
-            FontStyle style = FontStyle.Regular;
-            if (ChkBold.checked) style |= FontStyle.Bold;
-                if (ChkItalic.Checked) style |= FontStyle.Italic;
-                TxtResult.Font = new Font((string)CboFont.SelectedItem, 14, style);
-        }*/
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TrbHandle_Scroll(object sender, EventArgs e)
+        {
+            PrbDisplay.Value = TrbHandle.Value;
+        }
     }
 }
