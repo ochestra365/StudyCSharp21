@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Chap20App
+namespace UsingControlsApp
 {
-    static class Program
+    static class Form1
     {
         /// <summary>
         /// 해당 애플리케이션의 주 진입점입니다.
@@ -16,7 +16,7 @@ namespace Chap20App
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmMain());
+            Application.Run(new Form1());
         }
     }
 }

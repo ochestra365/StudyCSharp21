@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Chap20App
+namespace UsingControlsApp2
 {
     static class Program
     {
