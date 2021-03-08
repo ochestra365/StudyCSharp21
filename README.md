@@ -1,8 +1,7 @@
 # _StudyCSharp_
 
-PKNU C# 학습 리포지터리
+PKNU C_Sharp 학습 리포지터리
 
-<span style="color:red">StudyCSharp</span>
 ## Basic C# 주소록 생성
 목차 <br>
 1. 주소록의 기능 생각해보기<br>
