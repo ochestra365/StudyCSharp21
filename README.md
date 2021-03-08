@@ -31,3 +31,8 @@ tip. 개발하고자 하는 기능이 명확하므로 기능 객체를 먼저 �
 -----------
 ![출력화면](https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%B6%9C%EB%A0%A5%ED%99%94%EB%A9%B4.png)
 콘솔창의 초기 출력화면이다.
+
+2.  주소입력
+------------
+![주소입력](https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EC%9E%85%EB%A0%A5.png)
+1번을 누르고 다음과 같은 주소를 입력해 보았다.
