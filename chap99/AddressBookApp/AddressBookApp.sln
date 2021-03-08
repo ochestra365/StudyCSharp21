@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBookApp", "AddressBookApp.csproj", "{1786AA40-3667-428B-8B7F-F5FDD21C3C93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressBookApp", "AddressBookApp.csproj", "{1786AA40-3667-428B-8B7F-F5FDD21C3C93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "사진", "사진", "{60CB73E5-A08A-45C5-BCEA-578320D703B2}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\PKNU\Desktop\박성철 폴더\피카츄라이츄.png = C:\Users\PKNU\Desktop\박성철 폴더\피카츄라이츄.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
