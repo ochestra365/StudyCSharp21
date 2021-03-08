@@ -44,4 +44,15 @@ tip. 개발하고자 하는 기능이 명확하므로 기능 객체를 먼저 �
 2번을 누르고<br>
 <img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EA%B2%80%EC%83%892.png" width="40%" height="30%" ><br>
 나의 이름을 적어보고 검색(Enter)을 해보았다.<br>
+<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EA%B2%80%EC%83%893.png" width="40%" height="30%" ><br>
+검색창에서 나의 정보가 나왔다.<br>
 
+4. 주소수정
+---------
+<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EC%88%98%EC%A0%95.png" width="40%" height="30%" ><br>
+이번엔 3번을 눌러서 주소를 수정해보자.<br>
+<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EC%88%98%EC%A0%952.png" width="40%" height="30%" ><br>
+해당 화면과 같이 수정을 해보았다.
+
+5. 주소삭제
+---------
