@@ -2,6 +2,7 @@
 
 PKNU C_Sharp 학습 리포지터리(Chap 18)
 <img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%ED%94%BC%EC%B9%B4%EC%B8%84.png" width="60%" height="40%" ><br>
+언젠가 라이츄가 되는 그날을 위해...
 ----------------
 ## Basic C# 주소록 생성
 목차 <br>
