@@ -2,7 +2,7 @@
 
 PKNU C_Sharp 학습 리포지터리(Chap 18)
 <img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%ED%94%BC%EC%B9%B4%EC%B8%84.png" width="100%" height="100%" ><br>
-언젠가 라이츄가 되는 그날을 위해...
+언젠가 라이츄가 되는 그날을 위해...😂😂
 --------------
 
 ## Basic C# 주소록 생성
@@ -16,7 +16,7 @@ PKNU C_Sharp 학습 리포지터리(Chap 18)
 ## 1. 주소록의 기능 생각해보기
 __우리가 평소에 알고 있는 주소록은 무엇일까?__<br>
 <img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EB%A1%9D.png" width="60%" height="40%" ><br>
-위 사진은 네이버의 주소록이다. 주소록의 기능에 대해서 알아보도록 하자!!<br>
+위 사진은 네이버의 주소록이다. 주소록의 기능에 대해서 알아보도록 하자!!(●'◡'●)<br>
 ### 주소록의 기능은 다음과 같다.<br>
 1. 주소의 입력할 수 있어야 한다.
 2. 주소를 검색할수 있어야 한다.
