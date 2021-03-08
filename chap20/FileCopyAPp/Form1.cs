@@ -39,7 +39,7 @@ namespace FileCopyAPp
         private async void BtnAsyncCopy_Click(object sender, EventArgs e)
         {
             long totalCopied = await CopyAsync(TxtSource.Text, TxtTarget.Text);
-            MessageBox.Show($"{totalCopied}로 복사했습니다.", "비동기복사완료");
+            MessageBox.Show($"{totalCopied}를 복사했습니다.", "비동기복사완료");
         }
 
         private void BtnSyncCopy_Click(object sender, EventArgs e)
@@ -112,6 +112,10 @@ namespace FileCopyAPp
            
             BtnSyncCopy.Enabled = true;
             return totalCopied;
+            //내부적으로 스레드 동작.(async await 차이)
         }
     }
 }
+//동기는 설계가 간단하고 직관적이지만, 작업이 완료될 때까지 아무것도 못함
+//비동기는 설계가 복잡하지만, 작업이 완료되기전에 스레드를 다른 곳에 할당 가능.
+//데이터를 받는 방식을 의미하는 데, 비동기가 더 좋은 거임.
