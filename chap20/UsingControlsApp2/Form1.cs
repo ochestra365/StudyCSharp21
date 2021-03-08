@@ -91,7 +91,7 @@ namespace UsingControlsApp2
         private void BtnMsgBox_Click(object sender, EventArgs e)
         {
             //모달창 메세지 박스
-            MessageBox.Show(textBox1.Text);//모달창
+            MessageBox.Show(textBox1.Text,"타이틀",MessageBoxButtons.OKCancel);//모달창
         }
     }
 }
