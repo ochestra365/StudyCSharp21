@@ -10,7 +10,7 @@ PKNU C_Sharp 학습 리포지터리
 ------------------
 ## 1. 주소록의 기능 생각해보기
 __우리가 평소에 알고 있는 주소록은 무엇일까?__<br>
-<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EB%A1%9D.png" width="40%" height="30%" ><br>
+<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EB%A1%9D.png" width="60%" height="40%" ><br>
 위 사진은 네이버의 주소록이다. 주소록의 기능에 대해서 알아보도록 하자!!<br>
 ### 주소록의 기능은 다음과 같다.<br>
 1. 주소의 입력할 수 있어야 한다.
@@ -35,10 +35,9 @@ tip. 개발하고자 하는 기능이 명확하므로 기능 객체를 먼저 �
 
 2.  주소입력
 ------------
-![주소입력](https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EC%9E%85%EB%A0%A5.png)<br>
+<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EC%9E%85%EB%A0%A5.png" width="40%" height="30%" ><br>
 1번을 누르고 다음과 같은 주소를 입력해 보았다.
-
 3. 주소검색
 ----------------
-![주소검색](https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EA%B2%80%EC%83%89.png)<br>
+<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EA%B2%80%EC%83%89.png" width="40%" height="30%" ><br>
 2번을 누르고
