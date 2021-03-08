@@ -38,11 +38,16 @@ namespace UsingControlsApp2
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.TrbHandle = new System.Windows.Forms.TrackBar();
             this.PrbDisplay = new System.Windows.Forms.ProgressBar();
+            this.TrbHandle = new System.Windows.Forms.TrackBar();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.BtnModal = new System.Windows.Forms.Button();
+            this.BtnModaless = new System.Windows.Forms.Button();
+            this.BtnMsgBox = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TrbHandle)).BeginInit();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -127,6 +132,14 @@ namespace UsingControlsApp2
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "TrackBar&ProgressBar";
             // 
+            // PrbDisplay
+            // 
+            this.PrbDisplay.Location = new System.Drawing.Point(10, 84);
+            this.PrbDisplay.Maximum = 20;
+            this.PrbDisplay.Name = "PrbDisplay";
+            this.PrbDisplay.Size = new System.Drawing.Size(366, 23);
+            this.PrbDisplay.TabIndex = 1;
+            // 
             // TrbHandle
             // 
             this.TrbHandle.Location = new System.Drawing.Point(10, 24);
@@ -136,19 +149,54 @@ namespace UsingControlsApp2
             this.TrbHandle.TabIndex = 0;
             this.TrbHandle.Scroll += new System.EventHandler(this.TrbHandle_Scroll);
             // 
-            // PrbDisplay
+            // groupBox3
             // 
-            this.PrbDisplay.Location = new System.Drawing.Point(10, 84);
-            this.PrbDisplay.Maximum = 20;
-            this.PrbDisplay.Name = "PrbDisplay";
-            this.PrbDisplay.Size = new System.Drawing.Size(366, 23);
-            this.PrbDisplay.TabIndex = 1;
+            this.groupBox3.Controls.Add(this.BtnMsgBox);
+            this.groupBox3.Controls.Add(this.BtnModaless);
+            this.groupBox3.Controls.Add(this.BtnModal);
+            this.groupBox3.Location = new System.Drawing.Point(31, 277);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(396, 75);
+            this.groupBox3.TabIndex = 10;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Modal, Modaless";
+            // 
+            // BtnModal
+            // 
+            this.BtnModal.Location = new System.Drawing.Point(33, 20);
+            this.BtnModal.Name = "BtnModal";
+            this.BtnModal.Size = new System.Drawing.Size(89, 41);
+            this.BtnModal.TabIndex = 0;
+            this.BtnModal.Text = "Modal";
+            this.BtnModal.UseVisualStyleBackColor = true;
+            this.BtnModal.Click += new System.EventHandler(this.BtnModal_Click);
+            // 
+            // BtnModaless
+            // 
+            this.BtnModaless.Location = new System.Drawing.Point(159, 20);
+            this.BtnModaless.Name = "BtnModaless";
+            this.BtnModaless.Size = new System.Drawing.Size(89, 41);
+            this.BtnModaless.TabIndex = 1;
+            this.BtnModaless.Text = "Modaless";
+            this.BtnModaless.UseVisualStyleBackColor = true;
+            this.BtnModaless.Click += new System.EventHandler(this.BtnModaless_Click);
+            // 
+            // BtnMsgBox
+            // 
+            this.BtnMsgBox.Location = new System.Drawing.Point(285, 20);
+            this.BtnMsgBox.Name = "BtnMsgBox";
+            this.BtnMsgBox.Size = new System.Drawing.Size(89, 41);
+            this.BtnMsgBox.TabIndex = 2;
+            this.BtnMsgBox.Text = "MessageBox";
+            this.BtnMsgBox.UseVisualStyleBackColor = true;
+            this.BtnMsgBox.Click += new System.EventHandler(this.BtnMsgBox_Click);
             // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(470, 296);
+            this.ClientSize = new System.Drawing.Size(441, 362);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.progressBar1);
@@ -161,6 +209,7 @@ namespace UsingControlsApp2
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TrbHandle)).EndInit();
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -177,6 +226,10 @@ namespace UsingControlsApp2
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.ProgressBar PrbDisplay;
         private System.Windows.Forms.TrackBar TrbHandle;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button BtnMsgBox;
+        private System.Windows.Forms.Button BtnModaless;
+        private System.Windows.Forms.Button BtnModal;
     }
 }
 
