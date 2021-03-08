@@ -60,3 +60,18 @@ tip. 개발하고자 하는 기능이 명확하므로 기능 객체를 먼저 �
 어느 날 해커가 들어와서 나의 프로그램에 장난질을 했다!!<br>
 <img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EC%A0%84%EC%B2%B4%EC%B6%9C%EB%A0%A52.png" width="40%" height="30%" ><br>
 슬프게도 나의 프로그램은 보안이 약해서 그대로 뚫려버렸다... 보안 공부를 해야 할 필요가 있다!!
+
+6. 주소삭제
+------------
+해커가 장난질 한 주소를 지워보자.<br>
+<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EC%82%AD%EC%A0%9C.png" width="40%" height="30%" ><br>
+주소삭제란에 들어가서 주소를 삭제해보았다.<br>
+<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EC%82%AD%EC%A0%9C2.png" width="40%" height="30%" ><br>
+삭제가 완료되었다.<br>
+<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EC%82%AD%EC%A0%9C3.png" width="40%" height="30%" ><br>
+검색을 해보니 컵라면이 삭제되었다!!!!<br>
+
+7. 프로그램 종료
+-------------
+ 해당 프로그램을 종료하는 것까지 마무리해보았다.<br>
+<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20%EC%A2%85%EB%A3%8C.png" width="40%" height="30%" ><br>
