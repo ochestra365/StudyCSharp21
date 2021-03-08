@@ -80,3 +80,9 @@ tip. 개발하고자 하는 기능이 명확하므로 기능 객체를 먼저 �
 
 
 ## 3. 해당코드정리
+----------------
+코드의 내용이 방대하여 주소를 남길테니 해당 하이퍼링크를 클릭해보길 바란다.<br>
+![Addressinfo.cs](https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/AddressInfo.cs "프로퍼티 생성")<br>
+![AddressManager.cs](https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/AddressManager.cs "기능생성")<br>
+![DataFileManageer.cs ](https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/DataFileManageer.cs "데이터 읽기 및 저장 생성")<br>
+![MainApp.cs  ](https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/MainApp.cs "MainApp 구동")<br>
