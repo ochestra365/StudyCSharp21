@@ -1,7 +1,8 @@
 # _StudyCSharp_
 
-PKNU C_Sharp 학습 리포지터리(Chap 18)
-<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%ED%94%BC%EC%B9%B4%EC%B8%84.png" width="100%" height="100%" ><br>
+PKNU C_Sharp 학습 리포지터리(Chap 99 Addressbook)<br>
+![주소록 깃허브](https://github.com/ochestra365/StudyCSharp21/tree/main/chap99/AddressBookApp)<br>
+<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%82%AC%EC%A7%84/%ED%94%BC%EC%B9%B4%EC%B8%84%EB%9D%BC%EC%9D%B4%EC%B8%84.png" width="100%" height="100%" ><br>
 언젠가 라이츄가 되는 그날을 위해...😂😂
 --------------
 
