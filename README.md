@@ -1,7 +1,7 @@
 # _StudyCSharp_
 
 PKNU C_Sharp 학습 리포지터리(Chap 18)
-<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%ED%94%BC%EC%B9%B4%EC%B8%84.png" width="60%" height="40%" ><br>
+<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%ED%94%BC%EC%B9%B4%EC%B8%84.png" width="100%" height="100%" ><br>
 언젠가 라이츄가 되는 그날을 위해...
 --------------
 
@@ -57,7 +57,7 @@ tip. 개발하고자 하는 기능이 명확하므로 기능 객체를 먼저 �
 4. 주소수정
 ---------
 -----------
-<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EC%88%98%EC%A0%95.png" width="100%" height="100%" ><br>
+<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EC%88%98%EC%A0%95.png" width="40%" height="30%" ><br>
 이번엔 3번을 눌러서 주소를 수정해보자.<br>
 <img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%A3%BC%EC%86%8C%EC%88%98%EC%A0%952.png" width="40%" height="30%" ><br>
 해당 화면과 같이 수정을 해보았다.
