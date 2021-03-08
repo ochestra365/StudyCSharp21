@@ -30,7 +30,7 @@ tip. 개발하고자 하는 기능이 명확하므로 기능 객체를 먼저 �
 1. 시작화면
 -----------
 
-<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%B6%9C%EB%A0%A5%ED%99%94%EB%A9%B4.png" width="40" height="30 ><br>
+<img src="https://github.com/ochestra365/StudyCSharp21/blob/main/chap99/AddressBookApp/%EC%BA%A1%EC%B3%90%EC%82%AC%EC%A7%84/%EC%B6%9C%EB%A0%A5%ED%99%94%EB%A9%B4.png" width="40%" height="30%" ><br>
 콘솔창의 초기 출력화면이다.
 
 2.  주소입력
